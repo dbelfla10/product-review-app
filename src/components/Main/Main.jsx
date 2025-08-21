@@ -1,7 +1,20 @@
+import Product from "../Product/Product";
+import "./Main.css";
+
 function Main() {
   return (
-    <div>
-      <p>This is the Main Content</p>
+    <div className="main">
+      <h2 className="main__title">Most Popular Products</h2>
+      <div className="main__products">
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+      </div>
     </div>
   );
 }
