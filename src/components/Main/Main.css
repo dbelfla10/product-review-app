@@ -35,3 +35,25 @@
   column-gap: 30px;
   justify-content: center;
 }
+
+.main__pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.main__pagination-button {
+  background-color: transparent;
+  border: 1px solid #494848;
+  color: #494848;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-weight: 500;
+}
+
+.main__pagination-info {
+  margin: 0 15px;
+}
