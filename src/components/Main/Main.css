@@ -1,7 +1,28 @@
 .main {
+  padding: 0 80px;
+}
+
+.main__header {
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main__add-product-button {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 .main__products {
@@ -9,8 +30,8 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-columns: repeat(auto-fit, 220px);
   row-gap: 30px;
-  column-gap: 80px;
+  column-gap: 30px;
   justify-content: center;
 }

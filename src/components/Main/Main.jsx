@@ -4,7 +4,11 @@ import "./Main.css";
 function Main() {
   return (
     <div className="main">
-      <h2 className="main__title">Most Popular Products</h2>
+      <div className="main__header">
+        <p className="main__title">Products list</p>
+        <button className="main__add-product-button">+ Add Product</button>
+      </div>
+
       <div className="main__products">
         <Product />
         <Product />
