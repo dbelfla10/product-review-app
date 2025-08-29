@@ -1,4 +1,5 @@
 import Product from "../Product/Product";
+import { defaultProducts } from "../../utils/constants";
 import "./Main.css";
 
 function Main() {
@@ -9,16 +10,13 @@ function Main() {
         <button className="main__add-product-button">+ Add Product</button>
       </div>
 
-      <div className="main__products">
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-      </div>
+      <ul className="main__products">
+        {defaultProducts.map((product) => (
+          <li key={product.id}>
+            <Product product={product} />
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
