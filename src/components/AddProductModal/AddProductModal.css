@@ -1,0 +1,35 @@
+.modal__image-placeholder {
+  margin: 10px 0px 0px 0px;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.modal__image-placeholder-text {
+  color: #aaa;
+  text-align: center;
+}
+
+.modal__image-preview {
+  position: relative;
+}
+
+.modal__remove-image-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.modal__remove-image-icon {
+  width: 17px;
+  height: 17px;
+}
