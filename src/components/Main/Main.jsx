@@ -5,7 +5,7 @@ import "./Main.css";
 
 const PRODUCTS_PER_PAGE = 8;
 
-function Main() {
+function Main({ handleAddProductClick }) {
   const [currentPage, setCurrentPage] = useState(1);
 
   const totalPages = Math.ceil(defaultProducts.length / PRODUCTS_PER_PAGE);
@@ -18,7 +18,12 @@ function Main() {
     <div className="main">
       <div className="main__header">
         <p className="main__title">Products list</p>
-        <button className="main__add-product-button">+ Add Product</button>
+        <button
+          className="main__add-product-button"
+          onClick={handleAddProductClick}
+        >
+          + Add Product
+        </button>
       </div>
 
       <ul className="main__products">
