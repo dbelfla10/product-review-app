@@ -3,7 +3,7 @@ import ModalWithForm from "../ModalWithForm/ModalWithForm";
 import "./AddProductModal.css";
 import closeIcon from "../../assets/close-icon.svg";
 
-function AddProductModal({ isOpen, onClose, onAddProduct, handleCloseClick }) {
+function AddProductModal({ isOpen, onAddProduct, handleCloseClick }) {
   const fileInputRef = useRef(null);
   const [preview, setPreview] = useState(null);
 
@@ -85,6 +85,17 @@ function AddProductModal({ isOpen, onClose, onAddProduct, handleCloseClick }) {
           required
         />
       </label>
+      <label htmlFor="brand" className="modal__label">
+        Product Brand
+        <input
+          className="modal__input"
+          type="text"
+          name="brand"
+          placeholder="Brand of the product"
+          required
+        />
+      </label>
+
       <label htmlFor="description" className="modal__label">
         Product Description
         <input
