@@ -2,6 +2,7 @@ export const defaultProducts = [
   {
     id: 1,
     title: "Bananas",
+    brand: "Dole",
     description: "Description for Bananas",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -10,6 +11,7 @@ export const defaultProducts = [
   {
     id: 2,
     title: "Whole Milk",
+    brand: "Horizon",
     description: "Description for Whole Milk",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -18,6 +20,7 @@ export const defaultProducts = [
   {
     id: 3,
     title: "Brown Bread",
+    brand: "Pepperidge Farm",
     description: "Description for Brown Bread",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -26,6 +29,7 @@ export const defaultProducts = [
   {
     id: 4,
     title: "Eggs (12 pack)",
+    brand: "Eggland's Best",
     description: "Description for Eggs (12 pack)",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -34,6 +38,7 @@ export const defaultProducts = [
   {
     id: 5,
     title: "Chicken Breast",
+    brand: "Tyson",
     description: "Description for Chicken Breast",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -42,6 +47,7 @@ export const defaultProducts = [
   {
     id: 6,
     title: "Apples",
+    brand: "Honeycrisp",
     description: "Description for Apples",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -50,6 +56,7 @@ export const defaultProducts = [
   {
     id: 7,
     title: "Orange Juice",
+    brand: "Tropicana",
     description: "Description for Orange Juice",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -58,6 +65,7 @@ export const defaultProducts = [
   {
     id: 8,
     title: "Cheddar Cheese",
+    brand: "Kraft",
     description: "Description for Cheddar Cheese",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -66,6 +74,7 @@ export const defaultProducts = [
   {
     id: 9,
     title: "Tomatoes",
+    brand: "NatureSweet",
     description: "Description for Tomatoes",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -74,6 +83,7 @@ export const defaultProducts = [
   {
     id: 10,
     title: "Potatoes",
+    brand: "Idahoan",
     description: "Description for Potatoes",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -82,6 +92,7 @@ export const defaultProducts = [
   {
     id: 11,
     title: "Greek Yogurt",
+    brand: "Chobani",
     description: "Description for Greek Yogurt",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -90,6 +101,7 @@ export const defaultProducts = [
   {
     id: 12,
     title: "Spinach",
+    brand: "Earthbound Farm",
     description: "Description for Spinach",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -98,6 +110,7 @@ export const defaultProducts = [
   {
     id: 13,
     title: "Ground Beef",
+    brand: "Certified Angus",
     description: "Description for Ground Beef",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -106,6 +119,7 @@ export const defaultProducts = [
   {
     id: 14,
     title: "Rice",
+    brand: "Uncle Ben's",
     description: "Description for Rice",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -114,6 +128,7 @@ export const defaultProducts = [
   {
     id: 15,
     title: "Butter",
+    brand: "Land O'Lakes",
     description: "Description for Butter",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -122,6 +137,7 @@ export const defaultProducts = [
   {
     id: 16,
     title: "Carrots",
+    brand: "Bolthouse Farms",
     description: "Description for Carrots",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -130,6 +146,7 @@ export const defaultProducts = [
   {
     id: 17,
     title: "Strawberries",
+    brand: "Driscoll's",
     description: "Description for Strawberries",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -138,6 +155,7 @@ export const defaultProducts = [
   {
     id: 18,
     title: "Pasta",
+    brand: "Barilla",
     description: "Description for Pasta",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -146,6 +164,7 @@ export const defaultProducts = [
   {
     id: 19,
     title: "Olive Oil",
+    brand: "Bertolli",
     description: "Description for Olive Oil",
     img: "https://via.placeholder.com/150",
     reviews: [],
@@ -154,6 +173,7 @@ export const defaultProducts = [
   {
     id: 20,
     title: "Cereal",
+    brand: "Kellogg's",
     description: "Description for Cereal",
     img: "https://via.placeholder.com/150",
     reviews: [],

@@ -2,7 +2,7 @@
   background-color: #f9f9f9;
   /* border: 1px solid black; */
   width: 220px;
-  height: 280px;
+  height: 300px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -27,6 +27,20 @@
   font-weight: 500;
   margin: 0;
   padding: 0;
+}
+
+.product__brand {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+.product__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
 }
 
 .product__description {
