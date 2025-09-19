@@ -41,7 +41,28 @@ export const defaultProducts = [
     brand: "Tyson",
     description: "Description for Chicken Breast",
     img: "https://via.placeholder.com/150",
-    reviews: [],
+    reviews: [
+      {
+        rating: 5,
+        text: "Very juicy and tender, great for grilling! alhdasgdagdlaugagud ;oadgausdgao as;doaos dgsdas;od as;o das aso oa",
+      },
+      {
+        rating: 4,
+        text: "Good quality, but a bit pricey. ahdukiasd gas ;sd oasidospaid hasi9das pdfap hapdfihs aps fsa f",
+      },
+      {
+        rating: 3,
+        text: "Average taste, but easy to cook. ;asohas hsa ish f;os hifsp spi hfpishfsh fs is fshfsahfhasfh sfphsp fspf hps fps fpa fpa ",
+      },
+      {
+        rating: 2,
+        text: "Not as fresh as expected. fh;so fhsifhsapoif sif   ifshpifhsp ifsifisf",
+      },
+      {
+        rating: 1,
+        text: "Too dry and tough, wouldn't buy again.  fp'foihsafhspo ios fpsif psf psfiospofsahf pfpsoafa' pofspofpsaof oapso psfdpasohfpos pos aspo",
+      },
+    ],
     rating: 5,
   },
   {
